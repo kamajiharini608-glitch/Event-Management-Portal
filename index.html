@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Event Management Portal</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Event Management Portal</h2>
+        <p>Create and manage events easily.</p>
+        <button onclick="showMessage()">Explore Events</button>
+    </section>
+
+    <section class="events">
+        <div class="event-card">
+            <h3>Tech Conference 2026</h3>
+            <p>Join the latest technology conference.</p>
+            <button onclick="registerEvent('Tech Conference 2026')">Register</button>
+        </div>
+
+        <div class="event-card">
+            <h3>Music Festival</h3>
+            <p>Enjoy live performances and entertainment.</p>
+            <button onclick="registerEvent('Music Festival')">Register</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
